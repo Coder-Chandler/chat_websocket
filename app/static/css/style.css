@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background: url('back.jpg') no-repeat center center fixed;
+}
+
+textarea {
+    width: 550px;
+    height: 600px;
+    color: #ffaf64;
+    font-size: 16px;
+    resize:none;
+}
+
+.index-h1 {
+    font-size: 30px;
+}
+
+.input-name input {
+    width: 300px;
+    height: 30px;
+    border: 2px solid #717171;
+    background: #fff;
+}
+
+.input-name button {
+    height: 30px;
+    background: #090c0c;
+    cursor: pointer;
+    color: white;
+}
+
+.rc-channel {
+    line-height: 30px;
+    margin-top: 4px;
+    margin-left: 2px;
+    text-align: center;
+    cursor: pointer;
+    color: #fffbe6;
+    text-decoration:none;
+}
+
+.rc-channel:hover {
+    color: #b1517f;
+}
+
+.chat-rooms-index {
+    line-height: 30px;
+    margin-top: 4px;
+    margin-left: 2px;
+    text-align: center;
+    color: #fffbe6;
+    text-decoration:none;
+}
