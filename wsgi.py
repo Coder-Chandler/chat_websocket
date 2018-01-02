@@ -7,8 +7,7 @@ import chat
 
 
 sys.path.insert(0, abspath(dirname(__file__)))
-if __name__ == '__main__':
-    application = chat
+application = chat
 
 """
 建立一个软连接
@@ -18,7 +17,7 @@ ln -s /root/WebProjects/chat_websocket/bbs.nginx /etc/nginx/sites-enabled/chat
 
 
 
-➜  ~ cat /etc/supervisor/conf.d/bbs.conf
+➜  ~ cat /etc/supervisor/conf.d/chat.conf
 
 [program:bbs]
 command=/usr/local/bin/gunicorn wsgi -c gunicorn.config.py
