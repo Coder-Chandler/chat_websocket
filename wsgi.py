@@ -12,9 +12,9 @@ if __name__ == '__main__':
 
 """
 建立一个软连接
-ln -s /root/WebProjects/chat/bbs.conf /etc/supervisor/conf.d/chat.conf
+ln -s /root/WebProjects/chat_websocket/bbs.conf /etc/supervisor/conf.d/chat.conf
 
-ln -s /root/WebProjects/chat/bbs.nginx /etc/nginx/sites-enabled/chat
+ln -s /root/WebProjects/chat_websocket/bbs.nginx /etc/nginx/sites-enabled/chat
 
 
 
