@@ -7,7 +7,8 @@ import chat
 
 
 sys.path.insert(0, abspath(dirname(__file__)))
-application = chat
+app = chat.app
+application = chat.socketio.run(app)
 
 """
 建立一个软连接
